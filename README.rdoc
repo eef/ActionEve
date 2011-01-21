@@ -17,6 +17,7 @@
   
 Outputs
 Name: charactername1
+<br>
 Name: charactername2
 
 The library has loads more, just take a look around it until I document it fully.
