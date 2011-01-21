@@ -1,0 +1,22 @@
+== ActionEve
+
+=== About
+
+=== Requirements
+* A PC
+* A Set of hands, with fingers.
+* Ruby On Rails
+
+=== Usage
+  api = ActionEve::API.new(:id => 1074421, :api_key => "tnDEeKMAmGfIHK6kELFZRTid4XnqgZzc87mEzzNbJ6wq2r3qAgd9Va65K2Nk0AVG")
+  api.users.each do |user|
+    user.characters.each do |character|
+      puts "Name: #{character.name}"
+    end
+  end
+  
+Outputs
+Name: charactername1
+Name: charactername2
+
+The library has loads more, just take a look around it until I document it fully.
