@@ -1,6 +1,7 @@
 == ActionEve
 
 === About
+  Ruby library for Eve Online API
 
 === Requirements
 * A PC

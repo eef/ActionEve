@@ -9,7 +9,7 @@ SPEC = Gem::Specification.new do |s|
   s.platform         = Gem::Platform::RUBY
   s.summary          = "Eve Online library for Ruby on Rails"
   s.files            = Dir.glob("{bin, docs, lib, test}/**/*").delete_if do |item|
-                         item.inclde?("CVS") || item.include?("rdoc")
+                         item.include?("CVS") || item.include?("rdoc")
                        end
   s.require_path     = "lib"
   s.autorequire      = "action_eve"
