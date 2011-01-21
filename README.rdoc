@@ -8,7 +8,7 @@
 * Ruby On Rails
 
 === Usage
-  api = ActionEve::API.new(:id => 1074421, :api_key => "tnDEeKMAmGfIHK6kELFZRTid4XnqgZzc87mEzzNbJ6wq2r3qAgd9Va65K2Nk0AVG")
+  api = ActionEve::API.new(:id => 1234567, :api_key => "2Nk0AVG2Nk0AVG2Nk0AVG2Nk0AVG2Nk0AVG2Nk0AVG2Nk0AVG2Nk0AVG2Nk0AVG")
   api.users.each do |user|
     user.characters.each do |character|
       puts "Name: #{character.name}"
